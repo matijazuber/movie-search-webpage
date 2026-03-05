@@ -9,6 +9,7 @@ Displays movie poster, release date, rating, and overview
 Filters out results with no poster image
 Responsive layout for mobile and desktop
 
+![FlickFind Cover](./readme-cover.png)
 
 ## Getting Started
 

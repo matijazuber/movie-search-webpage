@@ -2,7 +2,7 @@
     return(
    <div className="card" key={movie.id}>
                         <img className="cardImage"
-                            src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${movie.poster_path}`}
+                            src={`https://image.tmdb.org/t/p/w342/${movie.poster_path}`}
                             alt={movie.title + ' poster'}
                             />
                         <div className="cardContent">

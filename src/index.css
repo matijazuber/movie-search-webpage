@@ -1,4 +1,3 @@
-
 html{
   font-size: 10px;
   font-family: Montserrat,sans-serif;
@@ -79,24 +78,35 @@ small{
     margin-bottom: 0;
   }
 }
+
 .cardList{
   margin-top: 4rem;
 }
+
 .card{
-  padding: 2rem 4rem;
+  padding: 2rem;
   border-radius: 10px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
   margin-bottom: 2rem;
   background-color: white;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
 }
 
 .cardTitle{
   margin-bottom: 0.5rem;
   font-size: 3.2rem;
-
 }
 
 .cardImage{
-  margin:0 auto;
-  display: block; 
+  width: 185px;
+  height: 278px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.cardContent{
+  flex: 1;
 }
