@@ -1,16 +1,50 @@
-# React + Vite
+# FlickFind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie search app built with **React** and **Vite**, powered by the [TMDB API](https://www.themoviedb.org/).
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Search for any movie by title
+Displays movie poster, release date, rating, and overview
+Filters out results with no poster image
+Responsive layout for mobile and desktop
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+### 1. Clone the repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/your-username/flickfind.git
+cd flickfind
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Set up environment variables
+
+Create a `.env` file in the project root based on `.env.example`:
+
+```bash
+cp .env.example .env
+```
+
+Then add your TMDB API key. You can get one for free at [themoviedb.org](https://www.themoviedb.org/settings/api).
+
+```
+VITE_TMDB_API_KEY=your_api_key_here
+```
+
+### 4. Run the app
+
+```bash
+npm run dev
+```
+
+## Preview
+
+Search for a movie and instantly see results with posters, ratings, and descriptions.
