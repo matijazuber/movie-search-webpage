@@ -1,7 +1,12 @@
-
+import SearchMovies from "./searchMovies"
 function App() {
   return(
-    <h1>Hello World!</h1>
+    <>
+    <div className="container">
+      <h1 className="title">FlickFind</h1>
+      <SearchMovies></SearchMovies>
+    </div>
+    </>
   )
 }
 
